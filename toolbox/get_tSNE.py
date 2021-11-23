@@ -5,7 +5,6 @@ import sys
 from tSNE import tSNE
 sys.path.append("..")
 from data import data_helper
-from models import model_factory
 import numpy as np
 from models.resnet_Content_Style import resnet18, resnet50
 import os
@@ -45,7 +44,7 @@ def get_args():
     parser.add_argument("--limit_target", default=None, type=int,
                         help="If set, it will limit the number of testing samples")
 
-    parser.add_argument("--network", choices=model_factory.nets_map.keys(), help="Which network to use",
+    parser.add_argument("--network", help="Which network to use",
                         default="resnet18")
     parser.add_argument("--tf_logger", type=bool, default=False, help="If true will save tensorboard compatible logs")
     # parser.add_argument("--tf_logger", type=bool, default=False, help="If true will save tensorboard compatible logs")
@@ -134,9 +133,7 @@ class Trainer:
     def plot_test_train(self, features_all, class_all, domain_all, target_domain, class_name, title_pic, mode=0):
         # tsne = TSNE(n_components=2, init='pca', random_state=0, perplexity=50)
         tsne = tSNE()
-
         features_all = torch.cat(features_all, dim=0)
-        # 利用tsne进行降维
         features_tsne = tsne.get_tsne_result(features_all.cpu().numpy())
         class_tsne = torch.cat(class_all).cpu().numpy()
         domain_tsne = domain_all
