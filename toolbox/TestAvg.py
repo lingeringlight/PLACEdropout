@@ -1,4 +1,3 @@
-# 统计test.txt中的结果，并且输出在一个文件中
 import os
 import numpy as np
 

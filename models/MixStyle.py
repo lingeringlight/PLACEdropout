@@ -4,11 +4,6 @@ import torch.nn as nn
 
 
 class MixStyle(nn.Module):
-    """MixStyle.
-    Reference:
-      Zhou et al. Domain Generalization with MixStyle. ICLR 2021.
-    """
-
     def __init__(self, p=0.5, alpha=0.1, eps=1e-6, mix='random', style_detach=0, mix_flag=0):
         """
         Args:
@@ -27,19 +22,7 @@ class MixStyle(nn.Module):
         self.style_detach = style_detach
         self.mix_flag = mix_flag
 
-    # def __repr__(self):
-    #     return f'MixStyle(p={self.p}, alpha={self.alpha}, eps={self.eps}, mix={self.mix})'
-
-    # def set_activation_status(self, status=True):
-    #     self._activated = status
-
-    # def update_mix_method(self, mix='random'):
-    #     self.mix = mix
-
     def forward(self, x):   # NxCxHxW
-        # if not self.training or not self._activated:
-        #     return x
-
         if random.random() > self.p:
             return x
 
@@ -78,6 +61,5 @@ class MixStyle(nn.Module):
         else:
             mu_mix = mu*lmda + mu2 * (1-lmda)
             sig_mix = sig*lmda + sig2 * (1-lmda)
-
 
         return x_normed*sig_mix + mu_mix
