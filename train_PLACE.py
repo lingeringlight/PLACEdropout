@@ -22,7 +22,7 @@ def get_args():
     parser.add_argument("--batch_size", "-b", type=int, default=64, help="Batch size")
     parser.add_argument("--image_size", type=int, default=224, help="Image size")
 
-    parser.add_argument("--result_path", default="/data/gjt/PLACE_results/", help="")
+    parser.add_argument("--result_path", default="", help="")
 
     parser.add_argument("--data", default="PACS")
     parser.add_argument("--network", choices=model_factory.nets_map.keys(), help="Which network to use",

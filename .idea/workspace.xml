@@ -19,87 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CrossEntropyLoss.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/Content_Style.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/LCD.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/LCD_layers.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/MixStyle.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/MixStyle_PACS.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/OfficeHome.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/PACS.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/RSC.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDBash/VLCS.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/StandardDataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/art_painting_crossval_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/art_painting_test_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/art_painting_train_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/cartoon_crossval_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/cartoon_test_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/cartoon_train_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/photo_crossval_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/photo_test_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/photo_train_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/sketch_crossval_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/sketch_test_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/sketch_train_kfold.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/CALTECH_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/CALTECH_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/LABELME_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/LABELME_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/PASCAL_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/PASCAL_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/SUN_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/SUN_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon10_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon10_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/art_pada_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/art_painting_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/art_painting_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/cartoon_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/cartoon_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/clipart_pada_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr10_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr10_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/jhuit_test_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/jhuit_train_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/mnist_m_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/mnist_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/photo_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/photo_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/product_pada_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/realworld_pada_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/sketch_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/sketch_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/svhn_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/synth_digits_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/usps_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam10_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam10_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam_train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/GeMPooling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/MixStyle.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Pooling.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/alexnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/alexnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/convnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/convnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/layer_discriminator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/resnet_Content_Style.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/optimizer/optimizer_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimizer/optimizer_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/GradCam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/TestAvg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/getKLCS.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/get_tSNE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/toolbox/tSNE.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_Content_Style.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Logger.py" afterDir="false" />
+    <list default="true" id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="delete the useless files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_PLACE.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_PLACE.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,8 +88,16 @@
       <updated>1637676844066</updated>
       <workItem from="1637676845485" duration="3089000" />
       <workItem from="1638083093705" duration="2089000" />
-      <workItem from="1638151854972" duration="19395000" />
+      <workItem from="1638151854972" duration="19795000" />
     </task>
+    <task id="LOCAL-00001" summary="delete the useless files">
+      <created>1638196062813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638196062813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +113,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete the useless files" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete the useless files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="119" key="#Deployment" timestamp="1638153299866">
@@ -222,6 +156,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="357" y="107" key="SettingsEditor/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153274109" />
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2" timestamp="1638196170627">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638196170627" />
     <state x="651" y="347" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1638153272688">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
