@@ -1,9 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.nn.init as init
-import torch.nn.functional as F
 import torch.utils.model_zoo as model_zoo
-from torchvision.models import AlexNet, resnet18
+from torchvision.models import AlexNet
 
 __all__ = ['AlexNet', 'alexnet']
 

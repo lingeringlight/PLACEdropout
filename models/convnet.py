@@ -4,8 +4,6 @@ import numpy as np
 import torch
 import random
 from .DropBlock import DropBlock2D
-from.MixStyle import MixStyle
-
 
 
 class Convolution(nn.Module):

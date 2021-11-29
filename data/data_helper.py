@@ -1,45 +1,18 @@
-from os.path import join, dirname
+from os.path import join
 
 import torch
 from torch.utils.data import DataLoader
 from torchvision import transforms
 
-from data import StandardDataset
-from data.JigsawLoader import JigsawDataset, JigsawTestDataset, JigsawDatasetRandAug, JigsawTestDatasetRandAug, \
-    get_split_dataset_info, get_split_domain_info_from_dir, get_split_dataset_info_from_txt, _dataset_info, \
-    JigsawTestDatasetMultiple
+from data.JigsawLoader import JigsawDatasetRandAug, JigsawTestDatasetRandAug, get_split_domain_info_from_dir, \
+    get_split_dataset_info_from_txt, _dataset_info
 from data.concat_dataset import ConcatDataset
 from data.JigsawLoader import JigsawNewDataset, JigsawTestNewDataset
 
-mnist = 'mnist'
-mnist_m = 'mnist_m'
-svhn = 'svhn'
-synth = 'synth'
-usps = 'usps'
-
 vlcs_datasets = ["CALTECH", "LABELME", "PASCAL", "SUN"]
 pacs_datasets = ["art_painting", "cartoon", "photo", "sketch"]
-office_datasets = ["amazon", "dslr", "webcam"]
-digits_datasets = [mnist, mnist, svhn, usps]
-available_datasets = office_datasets + pacs_datasets + vlcs_datasets + digits_datasets
-#office_paths = {dataset: "/home/enoon/data/images/office/%s" % dataset for dataset in office_datasets}
-#pacs_paths = {dataset: "/home/enoon/data/images/PACS/kfold/%s" % dataset for dataset in pacs_datasets}
-#vlcs_paths = {dataset: "/home/enoon/data/images/VLCS/%s/test" % dataset for dataset in pacs_datasets}
-#paths = {**office_paths, **pacs_paths, **vlcs_paths}
-
-dataset_std = {mnist: (0.30280363, 0.30280363, 0.30280363),
-               mnist_m: (0.2384788, 0.22375608, 0.24496263),
-               svhn: (0.1951134, 0.19804622, 0.19481073),
-               synth: (0.29410212, 0.2939651, 0.29404707),
-               usps: (0.25887518, 0.25887518, 0.25887518),
-               }
-
-dataset_mean = {mnist: (0.13909429, 0.13909429, 0.13909429),
-                mnist_m: (0.45920207, 0.46326601, 0.41085603),
-                svhn: (0.43744073, 0.4437959, 0.4733686),
-                synth: (0.46332872, 0.46316052, 0.46327512),
-                usps: (0.17025368, 0.17025368, 0.17025368),
-                }
+officehome_datasets = ['Art', 'Clipart', 'Product', 'RealWorld']
+available_datasets = officehome_datasets + pacs_datasets + vlcs_datasets
 
 
 class Subset(torch.utils.data.Dataset):
@@ -148,6 +121,7 @@ def get_val_dataloader(args, patches=False, tSNE_flag=0):
                                          pin_memory=True, drop_last=False)
     return loader
 
+
 def get_train_transformers(args):
 
     img_tr = [transforms.RandomResizedCrop((int(args.image_size), int(args.image_size)), (args.min_scale, args.max_scale))]
@@ -179,14 +153,6 @@ def get_val_transformer(args):
     ]
     return transforms.Compose(img_tr)
 
-
-# def get_target_jigsaw_loader(args):
-#     img_transformer, tile_transformer = get_train_transformers(args)
-#     name_train, _, labels_train, _ = get_split_dataset_info(join(dirname(__file__), 'txt_lists', '%s_train.txt' % args.target), 0)
-#     dataset = JigsawDataset(name_train, labels_train, patches=False, img_transformer=img_transformer,
-#                             tile_transformer=tile_transformer, jig_classes=args.jigsaw_n_classes, bias_whole_image=args.bias_whole_image)
-#     loader = torch.utils.data.DataLoader(dataset, batch_size=args.batch_size, shuffle=True, num_workers=4, pin_memory=True, drop_last=True)
-#     return loader
 
 def get_train_dataloader_RandAug(args, patches):
     dataset_list = args.source

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CrossEntropyLoss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/Content_Style.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/LCD.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/LCD_layers.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/MixStyle.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/MixStyle_PACS.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/OfficeHome.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/PACS.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/RSC.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDBash/VLCS.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/StandardDataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/art_painting_crossval_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/art_painting_test_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/art_painting_train_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/cartoon_crossval_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/cartoon_test_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/cartoon_train_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/photo_crossval_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/photo_test_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/photo_train_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/sketch_crossval_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/sketch_test_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/correct_txt_lists/sketch_train_kfold.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/CALTECH_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/CALTECH_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/LABELME_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/LABELME_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/PASCAL_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/PASCAL_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/SUN_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/SUN_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon10_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon10_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/amazon_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/art_pada_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/art_painting_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/art_painting_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/cartoon_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/cartoon_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/clipart_pada_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr10_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr10_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/dslr_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/jhuit_test_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/jhuit_train_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/mnist_m_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/mnist_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/photo_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/photo_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/product_pada_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/realworld_pada_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/sketch_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/sketch_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/svhn_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/synth_digits_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/usps_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam10_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam10_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/txt_lists/webcam_train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/GeMPooling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/MixStyle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Pooling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/alexnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/alexnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/convnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/convnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/layer_discriminator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/resnet_Content_Style.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimizer/optimizer_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimizer/optimizer_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox/GradCam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox/TestAvg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox/getKLCS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox/get_tSNE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/toolbox/tSNE.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_Content_Style.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/Logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/Logger.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="3b48d836-4e0f-4d68-8180-e08a9353e170" />
+  <component name="ProjectId" id="21K5GZAarXsJcvAuyymyJNP3Nym" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/train_PLACE.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python">
+      <module name="PLACEdropout" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://gjt@210.28.133.103:22/usr/local/anaconda3/envs/sharedEnv/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_PLACE.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="" />
+      <created>1637676844066</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637676844066</updated>
+      <workItem from="1637676845485" duration="3089000" />
+      <workItem from="1638083093705" duration="2089000" />
+      <workItem from="1638151854972" duration="19395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="119" key="#Deployment" timestamp="1638153299866">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="446" y="119" key="#Deployment/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153299866" />
+    <state x="309" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1638153526476">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="309" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153526476" />
+    <state x="495" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638195819481">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1637679457174" />
+    <state x="495" y="120" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638195819481" />
+    <state x="636" y="217" key="FileChooserDialogImpl" timestamp="1638187558284">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="636" y="217" key="FileChooserDialogImpl/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638187558284" />
+    <state width="1663" height="199" key="GridCell.Tab.0.bottom" timestamp="1638194862767">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.bottom/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
+    <state width="1663" height="199" key="GridCell.Tab.0.center" timestamp="1638194862767">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.center/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
+    <state width="1663" height="199" key="GridCell.Tab.0.left" timestamp="1638194862767">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.left/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
+    <state width="1663" height="199" key="GridCell.Tab.0.right" timestamp="1638194862767">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.right/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
+    <state x="357" y="107" key="SettingsEditor" timestamp="1638153274109">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="357" y="107" key="SettingsEditor/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153274109" />
+    <state x="651" y="347" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1638153272688">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="651" y="347" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153272688" />
+    <state x="847" y="0" width="867" height="927" key="dock-window-1" timestamp="1638195267642">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="847" y="0" width="867" height="927" key="dock-window-1/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638195267642" />
+    <state x="748" y="193" width="339" height="539" key="ftp.server.browser" timestamp="1638153297445">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="748" y="193" width="339" height="539" key="ftp.server.browser/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153297445" />
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1638185934582">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="516" y="195" width="672" height="678" key="search.everywhere.popup/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638185934582" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/toolbox/TestAvg.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PLACEdropout$train.coverage" NAME="train Coverage Results" MODIFIED="1638194249830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

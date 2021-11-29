@@ -7,8 +7,6 @@ def get_optim_and_scheduler(model, network, epochs, lr, train_all=True, nesterov
     else:
         params = model.get_params(lr)
     optimizer = optim.SGD(params, weight_decay=.0005, momentum=.9, nesterov=nesterov, lr=lr)
-    #optimizer = optim.Adam(params, lr=lr)
-    # print(network)
     if network == "convnet":
         step_size = 20
     else:

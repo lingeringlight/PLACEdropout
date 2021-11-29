@@ -2,8 +2,6 @@ from time import time
 
 from os.path import join, dirname
 
-# from .tf_logger import TFLogger
-
 _log_path = join(dirname(__file__), '../logs')
 
 
