@@ -36,8 +36,8 @@ To test a ResNet-18, you can download the trained model below:
 
 Target domain  | Acc(%) | models |
 :----:  | :----: | :----: |
-Photo | 96.65 | download |
-Art | 85.79 | download |
-Cartoon | 80.20 | download |
-Sketch | 83.69 | download |
+Photo | 96.71 | [download](https://drive.google.com/drive/folders/1TuJ5hhghykk6HDUn6Jp3oIigOZH6Z8f7?usp=sharing) |
+Art | 85.21 | [download](https://drive.google.com/drive/folders/1cC6VNKB97EgYdn4M0uYfv0ollByWXj59?usp=sharing) |
+Cartoon | 80.08 | [download](https://drive.google.com/drive/folders/1GJyKxjX3_q6hS2dzqiCRAwXMITx4BwiB?usp=sharing) |
+Sketch | 83.48 | [download](https://drive.google.com/drive/folders/1PF-Q0W9omVqXf1_irzRu63jbvFMiSygM?usp=sharing) |
 
