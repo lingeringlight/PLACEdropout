@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="delete useless words" />
+    <list default="true" id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="delete useless words">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="3b48d836-4e0f-4d68-8180-e08a9353e170" />
+  <component name="JupyterTrust" id="131c1d18-4c64-4378-8f68-54840be770bd" />
   <component name="ProjectId" id="21K5GZAarXsJcvAuyymyJNP3Nym" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -86,6 +89,7 @@
       <workItem from="1637676845485" duration="3089000" />
       <workItem from="1638083093705" duration="2089000" />
       <workItem from="1638151854972" duration="20181000" />
+      <workItem from="1638241332515" duration="7077000" />
     </task>
     <task id="LOCAL-00001" summary="delete the useless files">
       <created>1638196062813</created>
@@ -117,6 +121,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete the useless files" />
@@ -169,14 +174,18 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="446" y="193" key="Vcs.Push.Dialog.v2/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638196403475" />
+    <state x="662" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1638241341289">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="662" y="373" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638241341289" />
     <state x="651" y="347" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1638153272688">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="651" y="347" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153272688" />
-    <state x="847" y="0" width="867" height="927" key="dock-window-1" timestamp="1638195267642">
+    <state x="-7" y="0" width="867" height="927" key="dock-window-1" timestamp="1638254507880">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="847" y="0" width="867" height="927" key="dock-window-1/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638195267642" />
+    <state x="-7" y="0" width="867" height="927" key="dock-window-1/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638254507880" />
     <state x="748" y="193" width="339" height="539" key="ftp.server.browser" timestamp="1638153297445">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
