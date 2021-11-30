@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="delete the useless files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_PLACE.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_PLACE.py" afterDir="false" />
-    </list>
+    <list default="true" id="92e54701-5568-4a41-b212-0e08a79c6727" name="Default Changelist" comment="delete useless words" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +85,7 @@
       <updated>1637676844066</updated>
       <workItem from="1637676845485" duration="3089000" />
       <workItem from="1638083093705" duration="2089000" />
-      <workItem from="1638151854972" duration="19795000" />
+      <workItem from="1638151854972" duration="20181000" />
     </task>
     <task id="LOCAL-00001" summary="delete the useless files">
       <created>1638196062813</created>
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638196062813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete useless words">
+      <created>1638196400286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638196400286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="delete the useless files" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete the useless files" />
+    <MESSAGE value="delete useless words" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete useless words" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="119" key="#Deployment" timestamp="1638153299866">
@@ -136,30 +141,34 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="636" y="217" key="FileChooserDialogImpl/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638187558284" />
-    <state width="1663" height="199" key="GridCell.Tab.0.bottom" timestamp="1638194862767">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state width="1663" height="199" key="GridCell.Tab.0.bottom" timestamp="1638196747529">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1638196747529" />
     <state width="1663" height="199" key="GridCell.Tab.0.bottom/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
-    <state width="1663" height="199" key="GridCell.Tab.0.center" timestamp="1638194862767">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state width="1663" height="199" key="GridCell.Tab.0.center" timestamp="1638196747529">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1638196747529" />
     <state width="1663" height="199" key="GridCell.Tab.0.center/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
-    <state width="1663" height="199" key="GridCell.Tab.0.left" timestamp="1638194862767">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state width="1663" height="199" key="GridCell.Tab.0.left" timestamp="1638196747528">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1638196747528" />
     <state width="1663" height="199" key="GridCell.Tab.0.left/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
-    <state width="1663" height="199" key="GridCell.Tab.0.right" timestamp="1638194862767">
-      <screen x="0" y="0" width="1707" height="920" />
+    <state width="1663" height="199" key="GridCell.Tab.0.right" timestamp="1638196747529">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1663" height="199" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1638196747529" />
     <state width="1663" height="199" key="GridCell.Tab.0.right/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638194862767" />
     <state x="357" y="107" key="SettingsEditor" timestamp="1638153274109">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="357" y="107" key="SettingsEditor/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638153274109" />
-    <state x="446" y="193" key="Vcs.Push.Dialog.v2" timestamp="1638196170627">
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2" timestamp="1638196403475">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="446" y="193" key="Vcs.Push.Dialog.v2/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638196170627" />
+    <state x="446" y="193" key="Vcs.Push.Dialog.v2/2560.0.1280.690/0.0.1707.920@0.0.1707.920" timestamp="1638196403475" />
     <state x="651" y="347" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1638153272688">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
