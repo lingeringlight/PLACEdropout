@@ -17,7 +17,7 @@ def get_args():
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--target", default=1, type=int, help="Target")
     parser.add_argument("--device", type=int, default=3, help="GPU num")
-    parser.add_argument("--time", default=1, type=int, help="train time")
+    parser.add_argument("--time", default=0, type=int, help="train time")
 
     parser.add_argument("--batch_size", "-b", type=int, default=64, help="Batch size")
     parser.add_argument("--image_size", type=int, default=224, help="Image size")
