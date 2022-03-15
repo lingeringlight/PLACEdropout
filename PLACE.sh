@@ -35,7 +35,7 @@ do
       --stage2_flag 1 \
       --stage2_one_stage_flag 0 \
       --stage2_stage1_LastOrBest 0 \
-      --stage2_layers 3 4 \
+      --stage2_layers 1 2 3 \
       --update_parameters_method 0 \
       --random_dropout_layers_flag 1 \
       --not_before_flag 0 \
